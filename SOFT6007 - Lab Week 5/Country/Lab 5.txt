@@ -1,0 +1,35 @@
+Problem Solving & Programming 1 (SOFT6018) - Lab Week 5
+
+This lab should be done using Eclipse. It is installed on all the machines in the labs.
+
+__________________________________________________
+
+Write a program which uses the country array from last week's lab and does the following
+
+.
+Your program should have two classes MainProgram and CountryOperations
+
+CountryOperations should have three methods which do the following:
+
+	- A public method called calculateAverageCountryLength which calculates the average country name length and take the countryArray as a parameter and returns an int.
+	- A public method called getNumberOfCountriesBeginnigWithLetterwhich counts the number of countries beginning with a letter or letters. It should take a String and the countryArrayas a parameters and return an int
+	- A public method called printMenu which prints the menu to user and takes no parameter and returns nothing.
+
+getNumberOfCountriesBeginnigWithLetter should output a sentence like "The number of countries beginning with Sp is 5"
+
+__________________________________________________
+
+MainProgram should contain the countryArray and a main method (like last week)
+
+It should do the following :
+
+	- Display a menu to the user asking if they want to :
+	- 	1. Calculate the average country length
+		2. Find the number of countries beginning with a letter sequence.
+		3. Exit.
+	- A Scanner should be used to capture the users input when choosing an option and also when they are asked for a letter sequence in Option 2
+	- A while loop should keep running allowing them to keep choosing 1 or 2 as they wish. Once they enter 3 the program should exit.
+	- It should create an instance of CountryOperations in main and call its methods as appropriate.
+	- If the user enters an invalid option (i.e. Not 1,2 or 3) they should get this message "You have entered an invalid option."
+	
+__________________________________________________
