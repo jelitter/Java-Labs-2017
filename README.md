@@ -1,1 +1,6 @@
-# CIT-Java-Lab-Practices
+―――――――――――――――――――――――――――――――――――――――――――――――
+
+# CIT Java Lab Practices
+Exercises from Problem Solving & Programming 1 & 2
+
+―――――――――――――――――――――――――――――――――――――――――――――――
